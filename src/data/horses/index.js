@@ -70,7 +70,7 @@ const data = [
     level: 15,
     price: 5000,
     image: rottaler,
-    premium: false,
+    premium: true,
   },
   {
     name: "East Frisian",
