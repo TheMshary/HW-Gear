@@ -4,7 +4,7 @@ import Horse from "./Horse";
 
 const Horses = () => {
   const horseList = horses.map((horse) => <Horse horse={horse} />);
-  return <div>{horseList}</div>;
+  return <div style={{ display: "flex" }}>{horseList}</div>;
 };
 
 export default Horses;
