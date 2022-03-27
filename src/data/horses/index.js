@@ -100,7 +100,7 @@ const data = [
     level: 20,
     price: 15000,
     image: einsiedler,
-    premium: false,
+    premium: true,
   },
   {
     name: "Arab Horse",
