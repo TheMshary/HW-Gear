@@ -2,9 +2,9 @@ import React from "react";
 
 const Horse = ({ horse }) => {
   return (
-    <div>
+    <div style={{ width: "316px" }}>
       <img src={horse.image} alt={horse.name} />
-      <p>{horse.name}</p>
+      <p style={{ textAlign: "center" }}>{horse.name}</p>
       <p>Attack: {horse.attack}</p>
       <p>Defence: {horse.defence}</p>
       <p>Stamina: {horse.stamina}</p>
