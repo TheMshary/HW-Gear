@@ -13,7 +13,7 @@ const Horse = ({ horse }) => {
       <p>Stamina: {horse.stamina}</p>
       <p>Level Required: {horse.level}</p>
       <p style={{ display: "flex" }}>
-        <img src={gold} width={`${40 * 0.7}px`} />{" "}
+        <img src={gold} width={`${40 * 0.7}px`} alt="gold coins" />{" "}
         <span
           style={{
             fontWeight: "bold",
