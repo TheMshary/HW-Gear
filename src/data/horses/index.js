@@ -28,7 +28,7 @@ const data = [
     attack: 2,
     stamina: 2,
     level: 7,
-    price: 200,
+    price: 2000,
     image: dartmoorPony,
     premium: false,
   },
