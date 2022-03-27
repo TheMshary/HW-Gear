@@ -25,7 +25,7 @@ const Horse = ({ horse }) => {
           {horse.price}
         </span>
       </p>
-      {horse.premium && <p>-Premium-</p>}
+      {horse.premium && <p style={{ textAlign: "center" }}>-Premium-</p>}
     </div>
   );
 };
