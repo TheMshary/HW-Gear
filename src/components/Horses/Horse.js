@@ -1,4 +1,5 @@
 import React from "react";
+import gold from "../../data/gold.png";
 
 const Horse = ({ horse }) => {
   // itemWidth is the size multiplier on the whole Horse item UI
@@ -11,7 +12,19 @@ const Horse = ({ horse }) => {
       <p>Defence: {horse.defence}</p>
       <p>Stamina: {horse.stamina}</p>
       <p>Level Required: {horse.level}</p>
-      <p>Price: {horse.price} Gold</p>
+      <p style={{ display: "flex" }}>
+        <img src={gold} width={`${40 * 0.7}px`} />{" "}
+        <span
+          style={{
+            fontWeight: "bold",
+            marginTop: "auto",
+            marginBottom: "auto",
+            marginLeft: "10px",
+          }}
+        >
+          {horse.price}
+        </span>
+      </p>
       {horse.premium && <p>-Premium-</p>}
     </div>
   );
