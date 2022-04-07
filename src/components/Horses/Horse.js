@@ -4,6 +4,7 @@ import gold from "../../data/gold.png";
 const Horse = ({ horse }) => {
   // itemWidth is the size multiplier on the whole Horse item UI
   const itemWidth = 0.7;
+  horse.image = require("../../data/horses/images/" + horse.name + ".jpg");
   return (
     <div style={{ width: `${316 * itemWidth}px` }}>
       <img src={horse.image} width={`${316 * itemWidth}px`} alt={horse.name} />
