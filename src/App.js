@@ -1,6 +1,8 @@
 import Horses from "./components/Horses";
 import Weapons from "./components/Weapons";
 
+// TODO: 1. Carousel  2. More data  3. Headings above lists
+
 function App() {
   return (
     <>
