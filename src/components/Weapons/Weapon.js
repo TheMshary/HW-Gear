@@ -7,12 +7,12 @@ const Weapon = ({ weapon }) => {
   weapon.image = require("../../data/weapons/images/" + weapon.name + ".jpg");
   return (
     <div style={{ width: `${316 * itemWidth}px` }}>
+      <p style={{ fontWeight: "bold" }}>{weapon.name}</p>
       <img
         src={weapon.image}
         width={`${316 * itemWidth}px`}
         alt={weapon.name}
       />
-      <p style={{ textAlign: "center" }}>{weapon.name}</p>
       <p>Hitpoints: {weapon.hitpoints}</p>
       <p>Agility: {weapon.agility}</p>
       <p>Level Required: {weapon.level}</p>

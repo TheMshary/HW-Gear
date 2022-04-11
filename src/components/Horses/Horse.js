@@ -7,8 +7,8 @@ const Horse = ({ horse }) => {
   horse.image = require("../../data/horses/images/" + horse.name + ".jpg");
   return (
     <div style={{ width: `${316 * itemWidth}px` }}>
+      <p style={{ fontWeight: "bold" }}>{horse.name}</p>
       <img src={horse.image} width={`${316 * itemWidth}px`} alt={horse.name} />
-      <p style={{ textAlign: "center" }}>{horse.name}</p>
       <p>Attack: {horse.attack}</p>
       <p>Defence: {horse.defence}</p>
       <p>Stamina: {horse.stamina}</p>
